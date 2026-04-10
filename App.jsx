@@ -153,9 +153,11 @@ export default function NhaTroLinhQuy() {
                 </button>
               </div>
             </div>
-            <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center border-4 border-white shadow-lg">
-              <span className="text-gray-600 text-2xl font-bold">Ảnh Chính</span>
-            </div>
+            <img 
+              src="https://lh3.googleusercontent.com/p/AF1QipM93JpkDUM_i9B_WdTmUWQWBNZHljE2Tvum71c2=s1360-w1360-h1020-rw"
+              alt="Nhà trọ Linh Quy"
+              className="w-full h-96 object-cover rounded-lg border-4 border-white shadow-lg"
+            />
           </div>
         </div>
       </section>
