@@ -220,7 +220,7 @@ export default function NhaTroLinhQuy() {
               >
                 {room.highlight && (
                   <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white text-center py-2 font-bold">
-                    ⭐ PHÒNG NỔIẬT ⭐
+                    ⭐ PHÒNG NỔI BẬT ⭐
                   </div>
                 )}
                 <div className="bg-gray-300 h-48 flex items-center justify-center">
