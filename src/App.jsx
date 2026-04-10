@@ -220,7 +220,7 @@ export default function NhaTroLinhQuy() {
               >
                 {room.highlight && (
                   <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white text-center py-2 font-bold">
-                    ⭐ PHÒNG NỔIẬT ⭐
+                    ⭐ PHÒNG NỔI BẬT ⭐
                   </div>
                 )}
                 <div className="bg-gray-300 h-48 flex items-center justify-center">
@@ -337,12 +337,13 @@ export default function NhaTroLinhQuy() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.1709971671885!2d107.04019740984558!3d10.950452489164093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174e52f880378f7%3A0x5255ed4cd752d463!2zTmjDoCBUcuG7jSBMaW5oIFF1eQ!5e0!3m2!1svi!2s!4v1775837470406!5m2!1svi!2s"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
-                loading="lazy"
                 allowFullScreen=""
-                src="https://www.google.com/maps?q=Bàu+Xéo+Đồng+Nai&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Vị trí Nhà trọ Linh Quy"
               />
             </div>
